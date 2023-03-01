@@ -1,0 +1,58 @@
+<!DOCTIPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="X-UA-Compatible">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+	<title>ProyectoFinal_CV</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+</head>
+	<body>
+		<div class="container-fluid">
+		  <div class="row">
+			<div class="col-5 col-md-4">
+				<section class="text-center">
+				    <br> </br>
+					<img src="JSBach.jpg" class="rounded-circle" alt="La imagen no pudo cargar."
+					   width="150" height="150">
+					<form>
+					
+						<h5>Información:</h5>
+						<label>Nombre</label>
+						<input class="form-control form-control-sm" type="text" name="nombre" placeholder="Ingrese su nombre..." required />
+						<label>Apellido</label>
+						<input class="form-control form-control-sm" type="text" name="apellido" placeholder="Ingrese su apellido..." required />
+						<label>Fecha de Nacimiento</label>
+			            <input class="form-control form-control-sm" type="date" name="fech_nac" placeholder="Ingrese su fecha de nacimiento..."required /> 
+						<label>Email</label>
+						<input class="form-control form-control-sm" type="email" name="email"placeholder="Ingrese su email..."/>
+						<label>Teléfono</label>
+						<input class="form-control form-control-sm" type="number" name="telefono"placeholder="Ingrese su numero..." required />						
+			    </section>
+			</div>
+			<div class="col-7 col-md-8">
+			    <section class="parte2">
+						<h1><br>Currículum Vitae</br></h1>
+												
+						<label><h5>Perfil Personal</h5></label>
+						<input class="form-control form-control-lg" type="text" name="perfilPersonal"/>
+						<label><h5>Formación Académica</h5></label>
+						<input class="form-control form-control-lg" type="text" name="form_academ"/>
+						<label><h5>Experiencia Laboral</h5></label>
+						<input class="form-control form-control-lg" type="text" name="exp_lab"/>
+						<label><h5>Habilidades</h5></label>
+						<input class="form-control form-control-sm" type="text" name="habilidades" />
+						<label><h5>Idiomas</h5></label>
+						<input class="form-control form-control-sm" type="text" name="idiomas" />
+						<p id="demo"><br>Gracias por elegirnos.</br></p>
+						<button type="submit" class="btn btn-primary btn-sm" id="enviar">Enviar</button>
+						<script src="jsPFCV.js"></script>
+						<br> </br>
+				    </form>
+			    </section>
+			</div>
+		  </div>
+		</div>
+	</body>
+</html>
+
